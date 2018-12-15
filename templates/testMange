@@ -1,0 +1,25 @@
+项目记录文件
+1、创建项目
+django-admin startproject webname<项目名称>
+2.创建项目模块
+python manage.py startapp testcaseManage<项目模块名称>
+path()函数：
+参数route，view，kwargs，name
+3.添加数据库
+字段必须选择提示的
+创建数据库
+python manage.py migrate
+创建模型
+写models文件
+激活模型
+python manage.py makemigrations testcaseManage<项目模块名称>
+检查项目问题
+python manage.py check
+4.改变模型三步
+a.编辑models.py文件，改变模型
+b.运行python manage.py makemigrations为模型生成迁移文件
+c.运行python manage.py migrate来应用数据库迁移
+5.初始API
+6.创建一个管理员账号
+python manage.py createsuperuser
+

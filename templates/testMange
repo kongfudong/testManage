@@ -22,4 +22,5 @@ c.运行python manage.py migrate来应用数据库迁移
 5.初始API
 6.创建一个管理员账号
 python manage.py createsuperuser
+7.编写视图
 
